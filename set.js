@@ -7,7 +7,7 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'ezra',
+module.exports = { session: process.env.SESSION_ID || 'https://github.com/Teusday8/LUCKY-MD-XFORCE.git',
     PREFIXE: process.env.PREFIX || "+",
     GITHUB : process.env.GITHUB|| 'https://github.com/mr-X-force/LUCKY-MD-XFORCE',
     OWNER_NAME : process.env.OWNER_NAME || "FrediEzra",
@@ -44,7 +44,7 @@ module.exports = { session: process.env.SESSION_ID || 'ezra',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME || null,
     HEROKU_API_KEY : process.env.HEROKU_API_KEY || null,
     WARN_COUNT : process.env.WARN_COUNT || '5' ,
-    ETAT : process.env.PRESENCE || '1',
+    ETAT : process.env.PRESENCE || '2',
     DP : process.env.STARTING_BOT_MESSAGE || "yes",
     LUCKY_ADM : process.env.ANTI_DELETE_MESSAGES || 'no',
     ANTI_DELETE_GROUP : process.env.ANTI_DELETE_GROUP || 'no',
